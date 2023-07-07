@@ -6,7 +6,7 @@ repositories {
   }
 }
 dependencies {
-  implementation 'com.onfido.sdk.capture:onfido-capture-sdk:5.2.0'
+  implementation 'com.onfido.sdk.capture:onfido-capture-sdk:19.0.0'
 
   implementation ('com.google.android.gms:play-services-base:+') {
       exclude group: 'com.android.support' // to avoid conflicts with your current support library
